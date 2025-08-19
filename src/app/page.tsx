@@ -8,12 +8,11 @@ export default function Home() {
         <div className="flex flex-col items-center text-center mb-8">
           <div className="mb-4">
             <Image
-              src="https://placehold.co/100x100.png"
+              src="/logo.png"
               alt="QueensOfCardio Logo"
               width={100}
               height={100}
               className="rounded-full"
-              data-ai-hint="crown fitness"
             />
           </div>
           <h1 className="text-5xl md:text-6xl font-extrabold font-headline tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
