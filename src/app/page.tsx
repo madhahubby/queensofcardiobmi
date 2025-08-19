@@ -10,7 +10,7 @@ export default function Home() {
             <HeartPulse className="w-10 h-10" />
           </div>
           <h1 className="text-5xl md:text-6xl font-extrabold font-headline tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-            CardioCalcs
+            QueensOfCardio
           </h1>
           <p className="mt-2 text-base md:text-lg text-foreground/70">
             For the Queens of Cardio. Calculate your BMI and get personalized

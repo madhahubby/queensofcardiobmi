@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'CardioCalcs',
+  title: 'QueensOfCardio',
   description: 'BMI Calculator for the Queens of Cardio',
 };
 
