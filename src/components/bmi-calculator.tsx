@@ -56,8 +56,8 @@ export function BmiCalculator() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      weight: "" as unknown as number,
-      height: "" as unknown as number,
+      weight: undefined,
+      height: undefined,
     },
   });
 
@@ -151,6 +151,7 @@ export function BmiCalculator() {
                         step="0.1"
                         placeholder="e.g. 65"
                         {...field}
+                        value={field.value ?? ""}
                       />
                     </FormControl>
                     <FormMessage />
@@ -170,6 +171,7 @@ export function BmiCalculator() {
                         type="number"
                         placeholder="e.g. 170"
                         {...field}
+                        value={field.value ?? ""}
                       />
                     </FormControl>
                     <FormMessage />
