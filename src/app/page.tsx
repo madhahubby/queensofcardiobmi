@@ -6,7 +6,13 @@ export default function Home() {
     <main className="flex min-h-screen w-full flex-col items-center justify-center bg-background p-4 sm:p-8">
       <div className="w-full max-w-md">
         <div className="flex flex-col items-center text-center mb-8">
-          <div className="mb-4">
+          <div
+            className="mb-4 rounded-full"
+            style={{
+              filter:
+                'drop-shadow(0 4px 15px hsl(var(--primary) / 0.4)) drop-shadow(0 2px 5px hsl(var(--accent) / 0.5))',
+            }}
+          >
             <Image
               src="/logo.png"
               alt="QueensOfCardio Logo"
